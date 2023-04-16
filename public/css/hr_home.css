@@ -1,0 +1,94 @@
+.menu_area-light.scrollHeader .navbar-nav>li>a{
+    color: #fff !important;
+    font-size:15px !important;
+ 
+}
+
+header.scrollHeader .navbar-default {
+    background:rgba(33,33,33,1) !important;
+    
+}
+.menu_area-light .navbar-nav li a{
+    color:#fff;
+    font-size:15px;
+    
+}
+.menu_area-light .navbar-nav li.has-sub>ul {
+    /* background:rgba(33,33,33,1) !important; */
+   
+}
+
+.menu_area-light.scrollHeader .navbar a{
+    color:#fff;
+}
+.navbar a{
+    /* color:rgb(63, 62, 62); */
+    color:#fff;
+    height:50px;
+    
+}
+.navbar-nav>li>a{
+    padding:10px !important;
+    line-height:10px !important;
+   
+}
+header.scrollHeader .navbar-default {
+    background:rgba(33,33,33,1) !important;
+    
+}
+.menu_area-light .navbar-nav li.has-sub>ul {
+    background:rgba(33,33,33,1) !important;
+}
+.navbar>ul>li.has-sub>a:after{
+    top:10px;
+}
+.nav__bg{
+    width: 100%;
+    background:rgb(213, 44, 31) !important;
+    height:70px !important;
+    text-align:center !important;
+    line-height:70px;
+}
+
+.Y4CpGd{
+    color:#fff;
+}
+.div__col-lg_12{
+    color:#fff !important;
+}
+.div__nav {
+    color:#fff !important;
+}
+
+.ul__data{
+    display: none;color:#fff !important;
+}
+
+/* home.blade.php */
+.div__home{
+    background:rgba(25,25,112,1);height:200px !important;
+}
+.div__banner{
+    margin-left:250px;
+}
+
+.p__style{
+    color:#fff;
+    font-size:25px;
+}
+
+.em__style{
+    color:#fff;font-size:50px;font-weight:700;line-height:120px;
+}
+
+.XqQF9c{
+    font-size:20px;
+    text-decoration-line: underline;
+}
+
+.button__click{
+    padding:10px 30px; border:1px solid #fff;color:#fff;border-radius:5px;
+}
+.button__click:hover{
+    color:#fff;
+}

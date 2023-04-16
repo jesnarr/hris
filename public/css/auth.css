@@ -1,0 +1,112 @@
+.split {
+    height: 100%;
+    width: 58%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    }
+
+    .left {
+        left: 0;
+        background-image: url('/img/home-banner-3.jpg');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .right {
+    right: 0;
+
+    }
+
+    .centered {
+    position: relative;
+    top: 50%;
+    left: 70%;
+    transform: translate(-55%, -45%);
+    text-align: center;
+    }
+
+    p {
+   width: 60%;
+   text-align: center;
+   border-bottom: 1px solid #000;
+   line-height: 0.1em;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+p span {
+    background:#fff;
+    padding:0 10px;
+}
+/* responsive */
+@media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width:960px){
+
+    .split {
+
+    width: 100%;
+
+    }
+    .left{
+        display:none;
+    }
+    .centered {
+
+    left: 54%;
+    }
+}
+
+@media only screen and (max-width:768px){
+
+    .split {
+
+    width: 100%;
+
+    }
+    .left{
+        display:none;
+    }
+    .centered {
+
+    left: 54%;
+    }
+}
+
+@media only screen and (max-width:560px){
+
+    .split {
+
+    width: 100%;
+
+    }
+    .left{
+        display:none;
+    }
+    .centered {
+
+    left: 55%;
+
+    }
+
+}
+.text__field{
+    border-radius:9999px;
+    border-width:1px;
+    width:60% !important;
+    padding:15px !important;
+    background:#fff !important;
+    float:none !important;
+    border:1px solid #c0c0c0 !important;
+    text-indent:10px !important;
+    font-size:15px !important;
+
+}

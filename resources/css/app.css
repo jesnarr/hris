@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    .tw-card {
+        @apply bg-white rounded-lg border border-gray-200 shadow-md;
+    }
+    .tw-card-title {
+        @apply text-lg font-semibold tracking-tight text-gray-500;
+    }
+    .tw-card-body {
+        @apply mb-2 text-sm sm:text-base font-medium tracking-tight text-gray-900;
+    }
+    .tw-card-button {
+        @apply inline-flex items-center py-2 px-3 text-sm font-bold text-center text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300;
+    }
+    .tw-form-control {
+        @apply block py-2.5 px-0 w-full text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600;
+    }
+    .tw-floating-label {
+        @apply absolute text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6;
+    }
+}
