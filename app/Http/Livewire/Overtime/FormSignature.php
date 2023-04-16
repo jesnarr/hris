@@ -41,7 +41,7 @@ class FormSignature extends Component
         $job = JobInformation::with(['position', 'position.department'])
             ->where('employee_id', Auth::user()->employee->id)
             ->first();
-        $this->department = $job->position->department;
+        $this->department = $job->position->department ?? null;
         return view('livewire.overtime.form-signature');
     }
 
